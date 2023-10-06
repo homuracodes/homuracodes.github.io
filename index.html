@@ -1,1 +1,24 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>⚠️ WARNING ⚠️</title>
+        <script>
+            function back() {
+                let before = document.referrer;
+                location.href = before;
+                return null;
+            }
+        </script>
+    </head>
+    <body style="background-color: #FF5733;">
+        <h1 style="color: #FFFFFF; text-align: center;">⚠️ THE BEFORE WEBSITE IS NOT TRUSTED! ⚠️</h1>
+        <h2 style="color: #FFFFFF; text-align: center;">
+            To be exact, this website is preventing from a website that is trying to hack thy information.<br>
+            If you press a button below, thou will go back to the before website.
+        </h2>
+        <h1 style="color: #FFFFFF; text-align: center;">
+            This can be pretty risky for you.<br>
+            <u id="back" onclick="back();">Will you go back?</u>
+        </h1>
+    </body>
+</html>
